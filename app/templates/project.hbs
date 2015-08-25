@@ -1,0 +1,6 @@
+<h1>{{model.name}}</h1>
+
+<h2>Data:</h2>
+{{#each model.data as |data|}}
+  {{data.dataType}} {{data.value}} Celcius at {{data.date}}
+{{/each}}

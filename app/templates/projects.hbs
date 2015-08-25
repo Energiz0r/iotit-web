@@ -1,0 +1,4 @@
+
+{{#each model as |project|}}
+  {{#link-to 'project' project.id}}{{project.name}}{{/link-to}}
+{{/each}}
