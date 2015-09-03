@@ -21,8 +21,3 @@ install:
 
 script:
   - npm test
-
-deploy:
-  provider: heroku
-  api_key: c1692b17-4769-41ad-8459-14a42999282a
-  app: iotit-web
